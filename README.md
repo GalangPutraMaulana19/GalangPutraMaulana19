@@ -1,37 +1,57 @@
 <!--
-GITHUB PROFILE README
-1. Create a PUBLIC repository whose name is exactly your GitHub username.
-2. Keep this file's name as README.md and place it in the repository root.
-3. Replace every USERNAME and repository placeholder before publishing.
+CATATAN SETUP (hapus komentar ini setelah selesai)
+1. Buat repository PUBLIC dengan nama persis sama dengan username GitHub Anda.
+2. Upload README.md dan folder assets/ (banner.svg, footer.svg) ke root repository.
+3. Ganti USERNAME, YOUR_LINKEDIN_URL, dan YOUR_EMAIL_ADDRESS.
+4. Setelah repository proyek bersifat publik, buka komentar "View repository" pada proyek terkait.
+5. Jika halaman web portofolio sudah aktif di GitHub Pages, buka juga komentar badge Portfolio di bawah.
 -->
 
 <div align="center">
 
-# Hi, I'm Galang 👋
+<img src="./assets/banner.svg" alt="Galang — Information Systems Graduate · Data Analytics · Software Development · Technical Systems" width="100%">
 
-### Information Systems Graduate | Data Analytics | Software Development | Technical Systems
+<img src="https://img.shields.io/badge/Status-Open_to_opportunities-22c55e?style=for-the-badge" alt="Open to opportunities">
 
-I enjoy turning practical problems into structured solutions through software, data, and technology.
+<br><br>
 
-[GitHub](https://github.com/USERNAME) · [LinkedIn](YOUR_LINKEDIN_URL) · [Email](mailto:YOUR_EMAIL_ADDRESS)
+<a href="https://github.com/USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:YOUR_EMAIL_ADDRESS"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<!-- <a href="https://USERNAME.github.io"><img src="https://img.shields.io/badge/Portfolio-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a> -->
+
+<br><br>
+
+**[About](#about) · [Skills](#skills) · [Projects](#projects) · [Contact](#contact)**
 
 </div>
 
 ---
 
-## About Me
+## About
 
-I am an Information Systems graduate with an interest in software development, data analytics, and technical systems. My experience combines academic software development with hands-on technical work, including troubleshooting internet connectivity and network devices.
+I'm an Information Systems graduate who enjoys turning practical problems into structured solutions through software, data, and technology. My background combines academic software development with hands-on technical work, including troubleshooting internet connectivity and network devices.
 
-I have worked on an expert-system project for diagnosing IndiHome service issues and am developing a dashboard concept for exploring global macroeconomic and market data. I enjoy learning how systems work, documenting what I build, and improving solutions through practical testing.
+I've worked on an expert system for diagnosing IndiHome service issues and am currently developing a dashboard for exploring global macroeconomic and market data. I like understanding how systems work, documenting what I build, and improving solutions through practical testing.
 
-## Areas of Interest
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>💻 Software Development</h4>
+      Building practical applications and documenting their design.
+    </td>
+    <td width="33%" valign="top">
+      <h4>📊 Data Analytics</h4>
+      Preparing, exploring, and presenting structured data.
+    </td>
+    <td width="33%" valign="top">
+      <h4>🛠️ Technical Systems</h4>
+      Linux, computer networks, connectivity, and troubleshooting.
+    </td>
+  </tr>
+</table>
 
-- **Software Development:** building practical applications and documenting their design.
-- **Data Analytics:** preparing, exploring, and presenting structured data.
-- **Technical Systems:** Linux, computer networks, connectivity, and troubleshooting.
-
-## Tech & Tools
+## Skills
 
 <p>
   <img src="https://img.shields.io/badge/PHP_Native-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP Native" />
@@ -43,48 +63,77 @@ I have worked on an expert-system project for diagnosing IndiHome service issues
 
 **Methods & concepts:** Forward Chaining · Certainty Factor · Prototype Model · Data Processing · JSON · IPv4/IPv6 Networking
 
-## Featured Projects
+## Projects
 
 ### 1. IndiHome Service Fault Diagnosis Expert System
 
-An academic project focused on designing an expert system to help diagnose IndiHome service issues during the 60-day post-installation retention period.
+![Type](https://img.shields.io/badge/Type-Academic_project-6366f1?style=flat-square)
 
-- **Approach:** Forward Chaining and Certainty Factor.
-- **Visualization:** decision-tree representation of diagnostic rules.
-- **Stack:** PHP Native and MySQL.
-- **Development method:** Prototype Model.
+An expert system designed to help diagnose IndiHome service issues during the 60-day post-installation retention period.
 
-**Repository:** Add the public project repository URL here when it is ready.
+| | |
+|---|---|
+| **Approach** | Forward Chaining and Certainty Factor |
+| **Visualization** | Decision-tree representation of diagnostic rules |
+| **Stack** | PHP Native, MySQL |
+| **Development method** | Prototype Model |
+
+<details>
+<summary><b>See the simplified diagnostic flow</b></summary>
+
+```mermaid
+flowchart LR
+    A(["Reported symptoms"]) --> B["Forward Chaining<br/>match rules to known facts"]
+    B --> C["Certainty Factor<br/>combine confidence values"]
+    C --> D(["Likely fault and confidence level"])
+```
+
+</details>
+
+<!-- [View repository →](ADD_REPOSITORY_URL) -->
 
 ### 2. Global Macro & Market Intelligence Dashboard
 
+![Status](https://img.shields.io/badge/Status-In_progress-f59e0b?style=flat-square)
+
 An ongoing project to organize and explore global macroeconomic and market information through a structured, interactive dashboard.
 
-- **Focus:** structured JSON data, data validation, change tracking, and visual exploration.
-- **Design principle:** deterministic and explainable calculations, with source data kept inspectable.
-- **Status:** In progress.
+| | |
+|---|---|
+| **Focus** | Structured JSON data, data validation, change tracking, and visual exploration |
+| **Design principle** | Deterministic and explainable calculations, with source data kept inspectable |
 
-**Repository:** Add the project repository URL here when it is ready.
+<details>
+<summary><b>See the simplified data flow</b></summary>
 
-### 3. Technical Labs — Linux & Networking
+```mermaid
+flowchart LR
+    A[("Source data<br/>(JSON)")] --> B["Validation"]
+    B --> C["Change tracking"]
+    C --> D["Deterministic<br/>calculations"]
+    D --> E(["Interactive dashboard"])
+```
 
-A collection of practical notes and experiments involving Linux server administration, OpenWrt, network configuration, and connectivity troubleshooting.
+</details>
 
-**Repository:** Add a lab repository URL here when the documentation is ready.
+<!-- [View repository →](ADD_REPOSITORY_URL) -->
 
-## GitHub Activity
+### 3. Technical Labs: Linux & Networking
 
-<!-- The cards below are optional. Replace USERNAME with your GitHub username. -->
+![Type](https://img.shields.io/badge/Type-Hands--on_notes-0ea5e9?style=flat-square)
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&hide_border=true&theme=github_dark" alt="Most used languages" />
-</div>
+Practical notes and experiments on Linux server administration, OpenWrt, network configuration, and connectivity troubleshooting.
 
----
+<!-- [View repository →](ADD_REPOSITORY_URL) -->
+
+## Contact
+
+I'm open to opportunities in software development, data analytics, and technical systems. Feel free to reach out via [LinkedIn](YOUR_LINKEDIN_URL) or [email](mailto:YOUR_EMAIL_ADDRESS).
 
 <div align="center">
 
 *Always learning, building, and documenting.*
+
+<img src="./assets/footer.svg" alt="" width="100%">
 
 </div>
